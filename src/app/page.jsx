@@ -36,6 +36,7 @@ function Page() {
                         
                         <div className="w-[400px] border p-1 border-[#84EDFC] rounded-3xl p-5 hover:bg-cyan-200">
                         <img src="/jijel.webp" />
+                        <h1 className="text-lg font-semibold mt-3" >tittle : TRavel to Jijel</h1>
                         <h1 className="text-xl font-bold text-[#34C2FB]">Jijel</h1>
                         <h3 className="pt-2"> <span className="font-semibold">price</span> : 20000 <span className="font-bold">DA</span></h3>
                         <h4 className="font-light grey-400 pt-2"><span className="font-bold">description</span>: Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Totam optio consequatur iure, nemo dolorum nobis? </h4>
@@ -44,8 +45,9 @@ function Page() {
                             <button className="bg-[#5AC2B9] text-white pr-4 pl-4 ml-2 mt-2 pt-2 pb-2 rounded-lg flex"> <img src="/add.svg" className="w-5 mr-2"/>update</button>
                         </div>
                         </div>
-                        <div className="w-[400px] border p-1 border-[#84EDFC] rounded-3xl p-5 hover:bg-cyan-200">
+                        <div className="w-[400px] border p-1 border-[#84EDFC] rounded-3xl p-5 hover:bg-cyan-200"> 
                         <img src="/oran.jpg" />
+                        <h1 className="text-lg font-semibold mt-3">tittle : TRavel to Oran</h1>
                         <h1 className="text-xl font-bold text-[#34C2FB]">Oran</h1>
                         <h3 className="pt-2"> <span className="font-semibold">price</span> : 340000 <span className="font-bold">DA</span></h3>
                         <h4 className="font-light grey-400 pt-2"><span className="font-bold">description</span>: Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Totam optio consequatur iure, nemo dolorum nobis? </h4>
@@ -57,6 +59,7 @@ function Page() {
                         </div>
                         <div className="w-[400px] border p-1 border-[#84EDFC] rounded-3xl p-5  hover:bg-cyan-200">
                         <img src="/shara.jpg" />
+                        <h1 className="text-lg font-semibold mt-3" >tittle : TRavel to Sahara</h1>
                         <h1 className="text-xl font-bold text-[#34C2FB]">Sahara</h1>
                         <h3 className="pt-2"> <span className="font-semibold">price</span> : 50000 <span className="font-bold">DA</span></h3>
                         <h4 className="font-light grey-400 pt-2"><span className="font-bold">description</span>: Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Totam optio consequatur iure, nemo dolorum nobis? </h4>
@@ -68,6 +71,7 @@ function Page() {
                         </div>
 
                     </div>
+                    <div className="text-2xl font-bold text-center mt-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Molestiae asperiores fuga tempore illum, <br /> est unde facilis incidunt illo reprehenderit quisquam?</div>
                 <div className="bg-[#F5FCFE] h-[300px] mt-10 flex justify-around">
                 <div className="pt-10 border-r-2 border-[red] mt-10 mb-10 pr-10">
                     <h1 className="text-[red] text-xl font-bold">contact</h1>
