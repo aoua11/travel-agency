@@ -1,6 +1,5 @@
 'use client'
 
-
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
@@ -41,18 +40,7 @@ export default function BasicModal() {
   const submit = (e) => {
     e.preventDefault();
     axios.post('http://localhost:8000/travels', post)
-    .then((res) => {
-        
-        setPost({
-            name: '',
-            destination: '',
-            price: 0,
-            date: '',
-            rate: 0,
-            image: '',
-            description: ''
-        })
-    })
+    console.log("went here")
   }
 
   return (

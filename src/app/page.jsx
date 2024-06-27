@@ -1,7 +1,15 @@
+import axios from "axios";
 import BasicModal from "./components/FormModal";
 
 function Page() {
 
+
+    // const remove = (id) => {
+    //     axios.delete(`http://localhost:8000/travels/${id}`)
+    //     .then((res) => {
+    //         console.log(res)
+    //     })
+    // }
 
     return (
         <>
