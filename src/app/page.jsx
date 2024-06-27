@@ -1,5 +1,8 @@
+import BasicModal from "./components/FormModal";
 
 function Page() {
+
+
     return (
         <>
             <div className="bg-[#FBFFFF] h-[500px]">
@@ -29,8 +32,9 @@ function Page() {
                         <h2 className="text-[#F57D1F] font-bold ">Explore the Destination</h2>
                         <h1 className="text-2xl font-bold">where you wanna go?</h1>
                     </div>
+                    {/* NEW DESTINATION BUTTON */}
                     <div>
-                        <button className="bg-[#5AC2B9] text-white pr-4 pl-4 ml-20 pt-2 pb-2 rounded-lg"> <img src="/create.svg" className="w-8 inline-block pr-2"/>create new destination</button>
+                        <BasicModal/>   
                     </div>
                     <div className="flex justify-around mt-10 ml-10">
                         
@@ -88,13 +92,12 @@ function Page() {
                     <h1 className="text-[red] text-xl font-bold ">Quick link</h1>
                     <p>instagram : abdelrahman__ </p>
                     <p>snap : Amine__</p>
+                <h1>OUFBUAFBFUOEWFOSBUSUOB</h1>
 
                 </div>
                 </div>
 
                 </div>
-
-
 
 
 
